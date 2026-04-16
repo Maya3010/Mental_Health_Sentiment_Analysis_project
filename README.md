@@ -234,7 +234,7 @@ MENTAL_HEALTH_SENTIMENT_ANALYSIS
 ├── .gitignore               # Ignored files
 └── README.md                # Project documentation
 
-
+```
 
 ## ▶️ How to Run
 1. Install dependencies
