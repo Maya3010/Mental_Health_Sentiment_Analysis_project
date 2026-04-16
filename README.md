@@ -193,7 +193,7 @@ Helpline integration
 Supportive message display
 
 
-![Mental Health UI](images/ui.png)
+![Mental Health UI](images/UI.png)
 
 ---
 
@@ -206,7 +206,7 @@ joblib.dump(final_svm, "svm_model.pkl")
 
 
 ## 📁 Project Structure
-
+```bash
 MENTAL_HEALTH_SENTIMENT_ANALYSIS
 │
 ├── artifacts/               # Saved models & vectorizer
@@ -234,7 +234,7 @@ MENTAL_HEALTH_SENTIMENT_ANALYSIS
 ├── .gitignore               # Ignored files
 └── README.md                # Project documentation
 
----
+
 
 ## ▶️ How to Run
 1. Install dependencies
