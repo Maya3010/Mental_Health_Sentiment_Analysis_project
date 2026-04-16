@@ -154,7 +154,6 @@ Evaluation metrics used:
 
 Performed using **GridSearchCV**:
 
-```python
 param_grid = {
     'C': [0.01, 0.1, 1, 10],
     'loss': ['hinge', 'squared_hinge'],
@@ -165,7 +164,9 @@ C = 0.1
 
 --Improved generalization and reduced overfitting.
 
-🧪 Sample Prediction
+---
+
+## 🧪 Sample Prediction
 
 Input:
 
@@ -177,7 +178,9 @@ Prediction: Suicidal
 ⚠️ Please seek immediate help
 📞 Helpline (India): 65746483873
 
-💻 Streamlit Application
+---
+
+## 💻 Streamlit Application
 
 An interactive UI built using Streamlit.
 
@@ -192,7 +195,9 @@ Supportive message display
 
 ![Mental Health UI](images/ui.png)
 
-💾 Model Deployment
+---
+
+## 💾 Model Deployment
 
 Model saved using:
 
@@ -229,32 +234,36 @@ MENTAL_HEALTH_SENTIMENT_ANALYSIS
 ├── .gitignore               # Ignored files
 └── README.md                # Project documentation
 
-▶️ How to Run
+---
+
+## ▶️ How to Run
 1. Install dependencies
 pip install -r requirements.txt
 2. Run Streamlit App
 streamlit run app.py
 
-⚠️ Ethical Considerations
+---
+
+## ⚠️ Ethical Considerations
 This system is not a medical diagnostic tool
 Designed only for awareness and assistance
 Predictions are based on text and may lack context
 
 As highlighted in:
-
-📌 Limitations
+---
+## 📌 Limitations
 No conversational context
 Dataset bias may exist
 Model cannot replace professional diagnosis
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 Use deep learning models (BERT, LSTM)
 Add chatbot-style conversation
 Improve imbalance handling using SMOTE
 Deploy as a web service (AWS / HuggingFace)
 
-🙌 Acknowledgment
+## 🙌 Acknowledgment
 Inspired by real-world mental health AI systems
 
-👨‍💻 Author
+## 👨‍💻 Author
 Maya
