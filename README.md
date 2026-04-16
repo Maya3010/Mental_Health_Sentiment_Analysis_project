@@ -177,3 +177,84 @@ Prediction: Suicidal
 ⚠️ Please seek immediate help
 📞 Helpline (India): 65746483873
 
+💻 Streamlit Application
+
+An interactive UI built using Streamlit.
+
+Features:
+Text input box
+Real-time prediction
+Color-coded result display
+Emergency alert for high-risk cases
+Helpline integration
+Supportive message display
+
+
+![Mental Health UI](images/ui.png)
+
+💾 Model Deployment
+
+Model saved using:
+
+import joblib
+joblib.dump(final_svm, "svm_model.pkl")
+
+
+## 📁 Project Structure
+
+MENTAL_HEALTH_SENTIMENT_ANALYSIS
+│
+├── artifacts/               # Saved models & vectorizer
+│   ├── svm_model.pkl
+│   └── tfidf_vectorizer.pkl
+│
+├── data/
+│   ├── raw/                 # Original dataset
+│   │   └── Sentiment_Mental_health_dataset.csv
+│   └── cleaned/             # Processed dataset (after preprocessing)
+│
+├── images/                  # UI screenshots for README
+│
+├── notebooks/               # Jupyter notebooks (EDA + preprocessing)
+│   └── Data_preprocessing_sentiment_analysis.ipynb
+│
+├── src/                     # Modular source code
+│   ├── __init__.py
+│   ├── data_ingestion.py    # Load dataset
+│   ├── data_preprocess.py   # Text cleaning & preprocessing
+│   └── training.py          # Model training & evaluation
+│
+├── app.py                   # Streamlit UI application
+├── requirements.txt         # Dependencies
+├── .gitignore               # Ignored files
+└── README.md                # Project documentation
+
+▶️ How to Run
+1. Install dependencies
+pip install -r requirements.txt
+2. Run Streamlit App
+streamlit run app.py
+
+⚠️ Ethical Considerations
+This system is not a medical diagnostic tool
+Designed only for awareness and assistance
+Predictions are based on text and may lack context
+
+As highlighted in:
+
+📌 Limitations
+No conversational context
+Dataset bias may exist
+Model cannot replace professional diagnosis
+
+🚀 Future Improvements
+Use deep learning models (BERT, LSTM)
+Add chatbot-style conversation
+Improve imbalance handling using SMOTE
+Deploy as a web service (AWS / HuggingFace)
+
+🙌 Acknowledgment
+Inspired by real-world mental health AI systems
+
+👨‍💻 Author
+Maya
