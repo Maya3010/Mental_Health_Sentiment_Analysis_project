@@ -204,6 +204,7 @@ Model saved using:
 import joblib
 joblib.dump(final_svm, "svm_model.pkl")
 
+---
 
 ## 📁 Project Structure
 ```bash
@@ -249,12 +250,14 @@ This system is not a medical diagnostic tool
 Designed only for awareness and assistance
 Predictions are based on text and may lack context
 
-As highlighted in:
 ---
+
 ## 📌 Limitations
 No conversational context
 Dataset bias may exist
 Model cannot replace professional diagnosis
+
+---
 
 ## 🚀 Future Improvements
 Use deep learning models (BERT, LSTM)
@@ -262,8 +265,12 @@ Add chatbot-style conversation
 Improve imbalance handling using SMOTE
 Deploy as a web service (AWS / HuggingFace)
 
+---
+
 ## 🙌 Acknowledgment
 Inspired by real-world mental health AI systems
+
+---
 
 ## 👨‍💻 Author
 Maya
